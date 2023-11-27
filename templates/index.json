@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "1f8869c6-2db7-4d08-8963-fc9f1f724721": {
+      "type": "index-devices",
+      "settings": {
+        "collection_list": [
+          "iphone",
+          "samsung",
+          "android",
+          "ipads",
+          "macbook",
+          "watches",
+          "accessories"
+        ]
+      }
+    },
+    "560cd646-842b-430c-ad67-a749f5b4f1c7": {
+      "type": "index-gadgets",
+      "blocks": {
+        "1a4d0a11-bfdc-4e2d-b2b4-50c57ab4f52d": {
+          "type": "Feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Free_Delivery.svg",
+            "heading": "Free Delivery",
+            "subheading": "On all orders"
+          }
+        },
+        "cbde5248-f7de-438f-adf3-1542f78380e1": {
+          "type": "Feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Positive_Feedback.svg",
+            "heading": "Positive Feedback",
+            "subheading": "Top rated globally"
+          }
+        },
+        "e494a0f4-1223-4ddf-948b-43ac068da7e7": {
+          "type": "Feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Return_Policy.svg",
+            "heading": "Return Policy",
+            "subheading": "15 days return policy"
+          }
+        },
+        "abe4c5c7-dc49-4c06-9db3-d1ee95bb3690": {
+          "type": "Feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Secure_Payment.svg",
+            "heading": "Secure Payment",
+            "subheading": "Risk free payment"
+          }
+        },
+        "a8006206-6686-486d-b0b0-60162d25ad5b": {
+          "type": "Feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Top_Brands.svg",
+            "heading": "Top Brands",
+            "subheading": "Only best brands"
+          }
+        }
+      },
+      "block_order": [
+        "1a4d0a11-bfdc-4e2d-b2b4-50c57ab4f52d",
+        "cbde5248-f7de-438f-adf3-1542f78380e1",
+        "e494a0f4-1223-4ddf-948b-43ac068da7e7",
+        "abe4c5c7-dc49-4c06-9db3-d1ee95bb3690",
+        "a8006206-6686-486d-b0b0-60162d25ad5b"
+      ],
+      "settings": {
+        "heading": "Best Tech <span>Gadgets<\/span>",
+        "info": "The most complete gadget marketplace in the nation All Tech devices are available.",
+        "background_image": "shopify:\/\/shop_images\/ban2.jpg",
+        "button_text": "Shop Now",
+        "button_link": ""
+      }
+    },
+    "fc957770-60e7-4b79-842c-51f4a9084952": {
+      "type": "index-featured-categories",
+      "blocks": {
+        "f2124443-a8ec-4788-a676-0679580e122e": {
+          "type": "Feature",
+          "settings": {
+            "heading": "iPhones",
+            "info": "All models of iphone are available",
+            "image": "shopify:\/\/shop_images\/iphone.png",
+            "button_text": "Buy Now",
+            "button_link": "shopify:\/\/collections\/iphone"
+          }
+        },
+        "242ba20f-c373-4b46-8b46-c0e57326dce5": {
+          "type": "Feature",
+          "settings": {
+            "heading": "Watches",
+            "info": "All models of iphone are available",
+            "image": "shopify:\/\/shop_images\/wat_ce6c4db4-4b7f-44a9-a59b-b668785590f6.png",
+            "button_text": "Buy Now",
+            "button_link": "shopify:\/\/collections\/watches"
+          }
+        },
+        "9348ad76-b051-4398-85c7-5f18a16e88d7": {
+          "type": "Feature",
+          "settings": {
+            "heading": "Accessories",
+            "info": "All models of iphone are available",
+            "image": "shopify:\/\/shop_images\/airpod_0a393fc7-4a9f-4555-a232-f385f318f527.png",
+            "button_text": "Buy Now",
+            "button_link": "shopify:\/\/collections\/accessories"
+          }
+        }
+      },
+      "block_order": [
+        "f2124443-a8ec-4788-a676-0679580e122e",
+        "242ba20f-c373-4b46-8b46-c0e57326dce5",
+        "9348ad76-b051-4398-85c7-5f18a16e88d7"
+      ],
+      "settings": {
+        "heading": "Leading the Way<span>Forward<\/span>",
+        "info": "The most complete gadget marketplace in the nation All Tech devices are available."
+      }
+    },
+    "43120748-a373-4fb9-8e5c-a64004af7c8d": {
+      "type": "index-featured-collection",
+      "settings": {
+        "heading": "Browse Popular <span>iPhones<\/span>",
+        "collection": "iphone",
+        "show_products": 8,
+        "button_text": "See All",
+        "button_link": "shopify:\/\/collections\/iphone"
+      }
+    },
+    "6766d8c1-17c7-4800-b384-b3789c06e5c6": {
+      "type": "index-featured-collection",
+      "settings": {
+        "heading": "Browse Popular <span>Samsung Phones<\/span>",
+        "collection": "samsung",
+        "show_products": 8,
+        "button_text": "See All",
+        "button_link": "shopify:\/\/collections\/samsung"
+      }
+    },
+    "0dd4a40a-0d40-4bfa-963e-b350f33d79f8": {
+      "type": "index-hero",
+      "settings": {
+        "heading": "Seamless Trade, Infinite Possibilities",
+        "info": "The most complete gadget marketplace in the nation All Tech devices are available.",
+        "image": "shopify:\/\/shop_images\/777.png",
+        "background_image": "shopify:\/\/shop_images\/seamles.jpg",
+        "button_text": "Shop Now",
+        "button_link": "shopify:\/\/collections\/android"
+      }
+    },
+    "6726201e-f05d-4d73-9fef-24d46f2e4137": {
+      "type": "index-featured-collection",
+      "settings": {
+        "heading": "Browse Popular <span>Smart Watches & Wearables<\/span>",
+        "collection": "watches",
+        "show_products": 8,
+        "button_text": "See All",
+        "button_link": "shopify:\/\/collections\/watches"
+      }
+    },
+    "23f220d4-8629-4583-a021-d36ed7b85339": {
+      "type": "index-featured-collection",
+      "settings": {
+        "heading": "Browse Popular <span>Accessories<\/span>",
+        "collection": "accessories",
+        "show_products": 8,
+        "button_text": "See All",
+        "button_link": "shopify:\/\/collections\/accessories"
+      }
+    }
+  },
+  "order": [
+    "1f8869c6-2db7-4d08-8963-fc9f1f724721",
+    "560cd646-842b-430c-ad67-a749f5b4f1c7",
+    "fc957770-60e7-4b79-842c-51f4a9084952",
+    "43120748-a373-4fb9-8e5c-a64004af7c8d",
+    "6766d8c1-17c7-4800-b384-b3789c06e5c6",
+    "0dd4a40a-0d40-4bfa-963e-b350f33d79f8",
+    "6726201e-f05d-4d73-9fef-24d46f2e4137",
+    "23f220d4-8629-4583-a021-d36ed7b85339"
+  ]
+}

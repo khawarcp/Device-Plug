@@ -1,0 +1,37 @@
+<!-- Device -->
+<section class="device">
+    <div class="container">
+        <div class="devices-main">
+            <ul>
+                {% for device in section.settings.collection_list %}                    
+                    <li>
+                        <a href="{{ device.url }}">
+                            {% render 'responsive-image', image: device.image, loading: 'eager' %}
+                        {{ device.title }}
+                         </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- device-end -->
+
+{% schema %}
+{
+    "name": "Devices",
+    "settings": [
+        {
+            "type": "collection_list",
+            "id": "collection_list",
+            "label": "Collections",
+            "limit": 7
+        }
+    ],
+    "presets": [
+        {
+            "name": "Devices"
+        }
+    ]
+}
+{% endschema %}

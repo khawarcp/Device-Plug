@@ -1,0 +1,92 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "custom-footer",
+      "blocks": {
+        "3f740299-2a61-4ed8-a88a-688c97a87888": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_heading": "Newsletter",
+            "newsletter_subheading": "Subscribe to receive first-hand brand updates, access to exclusive deals, and 15% off your first order."
+          }
+        },
+        "257a64ad-8bdc-4f9b-952c-481aec3051f7": {
+          "type": "text",
+          "settings": {
+            "heading": "About Device Plug",
+            "subtext": "<p>Our journey began with a simple yet powerful idea: to provide a platform where people like you can find exquisite, high-quality items that speak to your desires and fantasies.<\/p>"
+          }
+        },
+        "7ce5af36-efe7-4b1f-9b2e-c501f64e05a7": {
+          "type": "link_list",
+          "settings": {
+            "heading": "links",
+            "menu": "footer"
+          }
+        },
+        "bc84196b-59f0-44fd-a7a4-9ddd78e8335a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "menu": "policies"
+          }
+        },
+        "542dcc73-ed97-4187-acfe-f3db7c06fb13": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Cart\/Checkout",
+            "menu": "cart-checkout"
+          }
+        },
+        "f1b8b79f-3ce4-445c-9fd7-cdf00181a0a2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "My Account",
+            "menu": "my-account"
+          }
+        },
+        "3be259dc-4f08-4903-a170-22460d96da42": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Service",
+            "menu": "customer-service"
+          }
+        }
+      },
+      "block_order": [
+        "3f740299-2a61-4ed8-a88a-688c97a87888",
+        "257a64ad-8bdc-4f9b-952c-481aec3051f7",
+        "7ce5af36-efe7-4b1f-9b2e-c501f64e05a7",
+        "bc84196b-59f0-44fd-a7a4-9ddd78e8335a",
+        "542dcc73-ed97-4187-acfe-f3db7c06fb13",
+        "f1b8b79f-3ce4-445c-9fd7-cdf00181a0a2",
+        "3be259dc-4f08-4903-a170-22460d96da42"
+      ],
+      "settings": {
+        "footer_logo": "shopify:\/\/shop_images\/footer-logo.svg",
+        "enable_delivery": true,
+        "delivery_heading": "Delivery",
+        "delivery_image": "shopify:\/\/shop_images\/dhl-delivery-image.svg",
+        "social_heading": "Social media",
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_heading": "Payment methods",
+        "payment_enable": true,
+        "payment_1": "shopify:\/\/shop_images\/Heimplanet-Apple-Pay-1.svg",
+        "payment_2": "shopify:\/\/shop_images\/Heimplanet-Klarna-1.svg",
+        "payment_3": "shopify:\/\/shop_images\/Heimplanet-Mastercard-1.svg",
+        "payment_4": "shopify:\/\/shop_images\/Heimplanet-PayPal-1.svg",
+        "payment_5": "shopify:\/\/shop_images\/Heimplanet-Visa-1.svg",
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,38 @@
+<section class="tabing">
+  <div class="container">
+      <ul class="tabs">
+          <li class="tab-link current" data-tab="tab-1">Description</li>
+          <li class="tab-link" data-tab="tab-2">Additional Features</li>
+          <li class="tab-link" data-tab="tab-3">Technical Specifications</li>
+      </ul>
+  
+      <div id="tab-1" class="tab-content current">
+          {{ product.description }}
+      </div>
+      <div id="tab-2" class="tab-content">
+          {{ product.metafields.custom.product_additional_features | metafield_tag }}
+      </div>
+      <div id="tab-3" class="tab-content">
+          {{ product.metafields.custom.product_technical_specifications | metafield_tag }}
+      </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Product Detail Tabbing",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Product Detail Tabbing"
+        }        
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

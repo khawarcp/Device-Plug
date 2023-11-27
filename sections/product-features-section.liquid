@@ -1,0 +1,89 @@
+<section class="seam-less">
+    <div class="container">
+        <div class="seamles-main" style="background-image: url(/cdn/shop/files/seamles_d1ce9389-c3e4-4cff-8e8a-7a3c6b67e830.jpg);">
+            <div class="gadgets-text seam">
+                <h2>{{ product.title }}</h2>
+                <div class="reviews seam">
+                  {% if product.metafields.custom.feature_one_name != blank %}
+                    <div class="review-div">
+                        <img src="{{ product.metafields.custom.feature_one_icon | img_url : 'master' }}">
+                        <div class="rev-text">
+                            <h6>{{ product.metafields.custom.feature_one_name }}</h6>
+                            <span>{{ product.metafields.custom.feature_one_values }}</span>
+                        </div>
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.feature_two_name != blank %}
+                    <div class="review-div">
+                        <img src="{{ product.metafields.custom.feature_two_icon | img_url : 'master' }}">
+                        <div class="rev-text">
+                            <h6>{{ product.metafields.custom.feature_two_name }}</h6>
+                            <span>{{ product.metafields.custom.feature_two_values }}</span>
+                        </div>
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.feature_three_name != blank %}
+                    <div class="review-div">
+                        <img src="{{ product.metafields.custom.feature_three_icon | img_url : 'master' }}">
+                        <div class="rev-text">
+                            <h6>{{ product.metafields.custom.feature_three_name }}</h6>
+                            <span>{{ product.metafields.custom.feature_three_values }}</span>
+                        </div>
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.feature_four_name != blank %}
+                    <div class="review-div">
+                        <img src="{{ product.metafields.custom.feature_four_icon | img_url : 'master' }}">
+                        <div class="rev-text">
+                            <h6>{{ product.metafields.custom.feature_four_name }}</h6>
+                            <span>{{ product.metafields.custom.feature_four_values }}</span>
+                        </div>
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.feature_five_name != blank %}
+                    <div class="review-div">
+                        <img src="{{ product.metafields.custom.feature_five_icon | img_url : 'master' }}">
+                        <div class="rev-text">
+                            <h6>{{ product.metafields.custom.feature_five_name }}</h6>
+                            <span>{{ product.metafields.custom.feature_five_values }}</span>
+                        </div>
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.feature_six_name != blank %}
+                    <div class="review-div">
+                        <img src="{{ product.metafields.custom.feature_six_icon | img_url : 'master' }}">
+                        <div class="rev-text">
+                            <h6>{{ product.metafields.custom.feature_six_name }}</h6>
+                            <span>{{ product.metafields.custom.feature_six_values }}</span>
+                        </div>
+                    </div>
+                  {% endif %}
+                </div>
+            </div>
+            {% if product.metafields.custom.feature_row_image != blank %}
+            <div class="seam-img">
+                <img src="{{ product.metafields.custom.feature_row_image | img_url : 'master' }}">
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Product Features Section",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Product Features Section"
+        }        
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
